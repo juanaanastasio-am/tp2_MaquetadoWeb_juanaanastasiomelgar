@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Gayathri:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+
+  <body class="bg-black text-light">
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand fw-bold">Gótico</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="productos.html" class="nav-link active">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero hero--short">
+      <picture>
+        <source
+          media="(max-width: 576px)"
+          srcset="../multimedia/img_finclasico_cel.jpg"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="../multimedia/img_finclasico_tablet.jpg"
+        />
+        <source
+          media="(min-width: 993px)"
+          srcset="../multimedia/img_finclasico_pc.jpg"
+        />
+        <img src="multimedia/img_finclasico_pc.jpg" alt="Portada productos" class="img-fluid" />
+      </picture>
+      <h2 class="hero-text">Gotico clasico</h2>
+    </section>
+
+
+    <!-- FILTROS -->
+    <button
+      class="filtros-mobile-btn"
+      onclick="document.getElementById('menuFiltros').classList.toggle('show')"
+    >
+      Filtros
+    </button>
+
+    <div class="filtros-mobile" id="menuFiltros">
+      <button>Superior</button>
+      <button>Inferior</button>
+      <button>Calzado</button>
+      <button>Accesorios</button>
+    </div>
+
+<!-- NUEVOS INGRESOS -->
+    <section class="nuevos-ingresos mt-5">
+      <div class="contenedor-nuevos-ingresos">
+        <h2 class="titulo-centro">Nuevos Ingresos</h2>
+
+        <div class="fila-pequenas">
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="../multimedia/pantalon1_cel.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="../multimedia/pantalon1_pc.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="../multimedia/pantalon1_pc.jpg"
+            />
+            <img src="../multimedia/pantalon1_pc.jpg" alt="" />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="../multimedia/top1_cel.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="../multimedia/top1_pc.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="../multimedia/top1_pc.jpg"
+            />
+            <img src="../multimedia/top1_pc.jpg" alt="" />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="../multimedia/vestido1_cel.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="../multimedia/vestido1_pc.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="../multimedia/vestido1_pc.jpg"
+            />
+            <img src="../multimedia/vestido1_pc.jpg" alt="" />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="../multimedia/zapa1_cel.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="../multimedia/zapa1_pc.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="../multimedia/zapa1_pc.jpg"
+            />
+            <img src="../multimedia/zapa1_pc.jpg" alt="" />
+          </picture>
+        </div>
+
+        <div class="grid-nuevos">
+          <div class="left-big">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/imggrande_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/imggrande_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/imggrande_pc.jpg"
+              />
+              <img src="../multimedia/imggrande_pc.jpg" alt="" />
+            </picture>
+          </div>
+
+          <div class="right-top">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/imgmediana_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/imgmediana_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/imgmediana_pc.jpg"
+              />
+              <img src="../multimedia/imgmediana_pc.jpg" alt="" />
+            </picture>
+          </div>
+
+          <div class="right-bottom">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/imgmediana2_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/imgmediana2_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/imgmediana2_pc.jpg"
+              />
+              <img src="../multimedia/imgmediana2_pc.jpg" alt="" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="productos">
+      <h2 class="titulo-centro">Productos</h2>
+
+      <div class="productos-grid">
+        <div class="producto">
+          <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/pantalon2_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/pantalon2_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/pantalon2_pc.jpg"
+              />
+              <img src="../multimedia/pantalon2_pc.jpg" alt="" />
+            </picture>
+          <h3>REMERA MANGA LARGA</h3>
+          <p class="precio">$40.000</p>
+          <a href="detalle-producto.html" class="btn-ver">VER PRODUCTO</a>
+        </div>
+
+        <div class="producto">
+          <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/top1_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/top1_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/top1_pc.jpg"
+              />
+              <img src="../multimedia/top1_pc.jpg" alt="" />
+            </picture>
+          <h3>VESTIDO CLÁSICO</h3>
+          <p class="precio">$40.000</p>
+          <a href="detalle-producto.html" class="btn-ver">VER PRODUCTO</a>
+        </div>
+
+        <div class="producto">
+          <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/zapa1_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/zapa1_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/zapa1_pc.jpg"
+              />
+              <img src="../multimedia/zapa1_pc.jpg" alt="" />
+            </picture>
+          <h3>MANGAS SPIDER</h3>
+          <p class="precio">$40.000</p>
+          <a href="detalle-producto.html" class="btn-ver">VER PRODUCTO</a>
+        </div>
+
+        <div class="producto">
+          <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="../multimedia/zapa4_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="../multimedia/zapa4_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="../multimedia/zapa4_pc.jpg"
+              />
+              <img src="../multimedia/zapa4_pc.jpg" alt="" />
+            </picture>
+          <h3>CORSET NEGRO CINTURA</h3>
+          <p class="precio">$40.000</p>
+          <a href="detalle-producto.html" class="btn-ver">VER PRODUCTO</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRUSEL -->
+    <section class="py-5 carrusel-autores">
+      <div class="container d-flex flex-column align-items-center">
+        <div
+          id="carruselAutores"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="d-flex justify-content-center align-items-center gap-4 slide-contenido"
+              >
+                <picture>
+                  <source
+                    media="(max-width: 576px)"
+                    srcset="../multimedia/nota_autor1_cel.jpg"
+                  />
+                  <source
+                    media="(max-width: 992px)"
+                    srcset="../multimedia/nota_autor1.jpg"
+                  />
+                  <source
+                    media="(min-width: 993px)"
+                    srcset="../multimedia/nota_autor1.jpg"
+                  />
+                  <img
+                    src="../multimedia/nota_autor1.jpg"
+                    class="foto-autor"
+                    alt="Autor 1"
+                  />
+                </picture>
+                <div class="texto-autor">
+                  <p class="frase">“Me gusta la hermosa oscuridad.”</p>
+                  <p class="autor">Tim Burton</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div
+                class="d-flex justify-content-center align-items-center gap-4 slide-contenido"
+              >
+                <picture>
+                  <source
+                    media="(max-width: 576px)"
+                    srcset="../multimedia/nota_autor2_cel.jpg"
+                  />
+                  <source
+                    media="(max-width: 992px)"
+                    srcset="../multimedia/nota_autor2.jpg"
+                  />
+                  <source
+                    media="(min-width: 993px)"
+                    srcset="../multimedia/nota_autor2.jpg"
+                  />
+                  <img
+                    src="../multimedia/nota_autor2.jpg"
+                    class="foto-autor"
+                    alt="Autor 2"
+                  />
+                </picture>
+                <div class="texto-autor">
+                  <p class="frase">
+                    “Los cuentos de hadas son más que verdad: no porque nos
+                    digan que los dragones existen, sino porque nos enseñan que
+                    pueden ser vencidos.”
+                  </p>
+                  <p class="autor">Guillermo del Toro</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <button
+              class="btn flecha me-3"
+              type="button"
+              data-bs-target="#carruselAutores"
+              data-bs-slide="prev"
+            >
+              ❮
+            </button>
+            <button
+              class="btn flecha"
+              type="button"
+              data-bs-target="#carruselAutores"
+              data-bs-slide="next"
+            >
+              ❯
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 text-center fondo-newsletter">
+      <div class="container">
+        <h3 class="titulo mb-3">Suscribite a nuestro newsletter</h3>
+        <form class="d-inline-block" style="max-width: 400px">
+          <input
+            type="email"
+            class="form-control mb-3"
+            placeholder="Tu correo"
+          />
+          <button type="submit" class="btn btn-dark">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-black text-center">
+      <p class="mb-0">
+        Juana Anastasio Melgar — Diseño Multimedial NOCHE Virtual — 2025
+      </p>
+      <div class="mt-2">
+        <a href="#" class="text-light mx-2"
+          ><i class="bi bi-instagram fs-4"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="bi bi-twitter fs-4"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="bi bi-facebook fs-4"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

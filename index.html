@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nombre de la página</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Gayathri:wght@400;600&display=swap"
+      rel="stylesheet"/>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body class="bg-black text-light">
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+          <a href="../index.html" class="titulo titulo navbar-brand fw-bold">Terror de Ropa</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link active">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="secciones/productos.html" class="nav-link"
+                  >Productos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section
+      class="hero"
+    >
+      <picture>
+        <source media="(max-width: 576px)" srcset="multimedia/intro_cel.jpg" />
+        <source
+          media="(max-width: 992px)"
+          srcset="multimedia/intro_peli1_pc.jpg"
+        />
+        <img
+          src="multimedia/intro_peli1_pc.jpg"
+          alt="Portada productos"
+          class="img-fluid w-100"
+        />
+      </picture>
+    </section>
+<!-- INTRO -->
+    <section class="py-5 seccion-intro">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="titulo col-md-6">
+            <h2>
+              Como artista siempre es bueno recordar de soñar en las cosas que
+              no existen, y no moverse” – Tim Burton
+            </h2>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Nuestro sitio combina archivo visual y tienda, ofreciendo la
+              oportunidad de admirar y adquirir prendas inspiradas en la
+              estética gótica: capas largas, corsets, encajes, terciopelos y
+              accesorios que reflejan la sofisticación y el dramatismo de este
+              estilo atemporal. Cada imagen, cada detalle y cada prenda cuenta
+              una historia, invitándote a sumergirte en un mundo donde la moda y
+              el cine se encuentran en la oscuridad y el misterio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 IMG SCROLL -->
+    <section class="py-5 bg-black text-center">
+      <div class="container">
+        <div class="scroll-img-row">
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="multimedia/img_peli1_cel.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="multimedia/img_peli1.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="multimedia/img_peli1.jpg"
+            />
+            <img
+              src="multimedia/img_peli1.jpg"
+              class="img-fluid rounded sombra"
+              alt="Imagen 1"
+            />
+          </picture>
+
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="multimedia/img_peli2_cel.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="multimedia/img_peli2.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="multimedia/img_peli2.jpg"
+            />
+            <img
+              src="multimedia/img_peli2.jpg"
+              class="img-fluid rounded sombra"
+              alt="Imagen 2"
+            />
+          </picture>
+
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="multimedia/img_peli3.jpg"
+            />
+            <source
+              media="(max-width: 992px)"
+              srcset="multimedia/img_peli3.jpg"
+            />
+            <source
+              media="(min-width: 993px)"
+              srcset="multimedia/img_peli3.jpg"
+            />
+            <img
+              src="multimedia/img_peli3.jpg"
+              class="img-fluid rounded sombra"
+              alt="Imagen 3"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIONES TEMÁTICAS -->
+
+    <section id="gotico-clasico" class="py-5">
+      <div class="container">
+        <h2 class="titulo text-center mb-4">Gótico clasico</h2>
+
+        <!-- Fila 1 -->
+        <div class="row g-4 align-items-center mt-4">
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/clasico1_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/clasico1_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/clasico1_pc.jpg"
+              />
+              <img
+                src="multimedia/clasico1_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-6">
+            <p class="texto-grande">
+              Durante las primeras décadas del siglo XX, el cine gótico clásico
+              estableció los códigos visuales que aún hoy asociamos con el
+              horror, el misterio y lo sobrenatural. Surgido principalmente en
+              Alemania con el expresionismo y consolidado en Hollywood, este
+              periodo combina arquitectura y escenografía dramática, iluminación
+              contrastada y vestuario simbólico, creando atmósferas que
+              transmiten tensión, miedo y fascinación estética.
+            </p>
+          </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row g-4 align-items-center mt-5">
+          <div class="col-md-6">
+            <p class="texto-grande">
+              El vestuario no es solo un accesorio: es parte integral de la
+              narrativa. Cada prenda, cada textura, cada capa comunica algo
+              sobre el personaje, su posición social y su relación con el mundo
+              sobrenatural que habita. Las telas pesadas, los encajes delicados,
+              el terciopelo oscuro y los corsets rígidos refuerzan la rigidez,
+              la solemnidad o la decadencia de los protagonistas, mientras que
+              las siluetas alargadas y los cuellos altos estilizan la figura,
+              haciéndola parecer más etérea, misteriosa o incluso amenazante.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/clasico2_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/clasico2_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/clasico2_pc.jpg"
+              />
+              <img
+                src="multimedia/clasico2_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-3">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/clasico3_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/clasico3_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/clasico3_pc.jpg"
+              />
+              <img
+                src="multimedia/clasico3_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row align-items-center mt-5">
+          <div class="col-md-5">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/clasico4_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/clasico4_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/clasico4_pc.jpg"
+              />
+              <img
+                src="multimedia/clasico4_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-7">
+            <p class="lead">
+              El gótico clásico combina elegancia y terror, mostrando una
+              belleza que surge de la decadencia, del deterioro y de lo
+              prohibido. Las prendas con detalles ornamentales, los pliegues que
+              crean juegos de luces y sombras, los guantes, medallones y capas
+              largas, no solo construyen la identidad del personaje, sino que
+              construyen el espacio mismo de la película, haciendo que el
+              vestuario se convierta en un instrumento narrativo y sensorial.
+            </p>
+          </div>
+        </div>
+
+        <!-- Fila 4 -->
+        <div class="row g-4 mt-5 mb-5">
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/clasico5_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/clasico5_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/clasico5_pc.jpg"
+              />
+              <img
+                src="multimedia/clasico5_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/clasico6_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/clasico6_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/clasico6_pc.jpg"
+              />
+              <img
+                src="multimedia/clasico6_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tema" id="moderno">
+      <div class="overlay-dark"></div>
+      <div class="container position-relative py-5">
+        <h2 class="titulo text-center mb-5">Gótico Moderno</h2>
+
+        <!-- Fila 1 -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-7">
+            <p class="lead">
+              Durante los años 80 y 90, el cine gótico se transforma y se
+              reinventa, fusionando la estética clásica del horror con
+              influencias contemporáneas, punk, pop y surrealismo. Mientras que
+              el gótico clásico construía mundos sombríos a través de la
+              elegancia aristocrática y la rigidez, el gótico moderno explora la
+              extravagancia, el humor negro, la decadencia estilizada y la
+              psicología de los personajes. La vestimenta se vuelve más
+              experimental, combinando elementos tradicionales —corsets, capas,
+              terciopelo— con referencias urbanas y punk: cuero negro, botas
+              altas, hebillas, sombreros excéntricos y siluetas más libres. Los
+              colores oscuros siguen predominando, pero aparecen toques
+              saturados de rojo, morado, verde o blanco, creando contraste y
+              dramatismo visual.
+            </p>
+          </div>
+
+          <div class="col-md-5">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/moderno1_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/moderno1_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/moderno1_pc.jpg"
+              />
+              <img
+                src="multimedia/moderno1_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <p>
+              En esta etapa, la arquitectura, el maquillaje y la vestimenta se
+              integran para crear universos estilizados donde lo gótico se
+              encuentra con lo contemporáneo: escenarios suburbanos, mansiones
+              victorianas, bosques sombríos y calles nocturnas se combinan con
+              la moda oscura de los protagonistas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row g-4 mb-5">
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/moderno2_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/moderno2_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/moderno2_pc.jpg"
+              />
+              <img
+                src="multimedia/moderno2_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/moderno3_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/moderno3_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/moderno3_pc.jpg"
+              />
+              <img
+                src="multimedia/moderno3_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <!-- Fila 4 -->
+        <div class="row align-items-center mt-5">
+          <div class="col-md-5">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/moderno4_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/moderno4_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/moderno4_pc.jpg"
+              />
+              <img
+                src="multimedia/moderno4_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-7">
+            <p class="lead">
+              El cine gótico moderno no solo busca generar miedo, sino también
+              impactar visualmente y transmitir la personalidad de cada
+              personaje. Por ejemplo: Lydia Deetz en Beetlejuice, Eduardo
+              Manostijeras, Entrevista con el vampiro y Sleepy Hollow. El gótico
+              moderno es, en definitiva, una reinterpretación del terror
+              clásico: mezcla humor, teatralidad y romanticismo oscuro, mientras
+              amplía la paleta visual y el vocabulario del vestuario gótico,
+              convirtiéndolo en un icono cultural de identidad y estilo que
+              sigue influyendo en la moda y el cine actual.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tema" id="contemporaneo">
+      <div class="overlay-dark"></div>
+      <div class="container position-relative py-5">
+        <h2 class="titulo text-center mb-4">Gótico Contemporáneo</h2>
+
+        <!-- Fila 1 -->
+        <div class="row g-4 align-items-center mt-4">
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/contempo1_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/contempo1_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/contempo1_pc.jpg"
+              />
+              <img
+                src="multimedia/contempo1_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-6">
+            <p class="texto-grande">
+              Desde principios del siglo XXI, el gótico en el cine evoluciona
+              hacia una estética más diversa, estilizada y cosmopolita,
+              fusionando elementos clásicos con influencias modernas de la moda,
+              el cine de autor, el steampunk y la cultura pop. Esta etapa no
+              solo recupera la elegancia y el misterio del gótico clásico y
+              moderno, sino que también lo adapta a contextos urbanos,
+              fantásticos y minimalistas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row g-4 align-items-center mt-5">
+          <div class="col-md-6">
+            <p class="texto-grande">
+              La vestimenta en el cine gótico contemporáneo refleja una fusión
+              entre tradición y modernidad. Predominan los colores oscuros como
+              el negro, el gris, el azul marino y el burdeos, combinados con
+              accesorios metálicos, cuero, botas altas y corsets
+              reinterpretados, así como siluetas más libres que aportan
+              dinamismo y sofisticación. La influencia de la moda contemporánea
+              permite que los personajes góticos puedan mostrarse elegantes,
+              minimalistas o incluso con toques futuristas, sin perder la
+              esencia oscura y dramática que caracteriza al estilo. Los
+              contrastes de color y textura se vuelven más audaces, incorporando
+              combinaciones de tejidos, brillos sutiles, transparencias y capas
+              que generan un impacto visual fuerte y evocador.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/contempo2_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/contempo2_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/contempo2_pc.jpg"
+              />
+              <img
+                src="multimedia/contempo2_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-3">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/contempo3_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/contempo3_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/contempo3_pc.jpg"
+              />
+              <img
+                src="multimedia/contempo3_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row align-items-center mt-5">
+          <div class="col-md-5">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/contempo4_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/contempo4_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/contempo4_pc.jpg"
+              />
+              <img
+                src="multimedia/contempo4_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+
+          <div class="col-md-7">
+            <p class="lead">
+              Esta etapa también refleja la interacción entre cine y moda:
+              diseñadores de vestuario contemporáneos utilizan telas
+              innovadoras, técnicas de costura modernas y referencias históricas
+              reinterpretadas para crear personajes memorables. La narrativa
+              visual combina lo clásico y lo moderno, lo urbano y lo romántico,
+              lo oscuro y lo luminoso, consolidando al gótico como un lenguaje
+              estético flexible y vigente. En este contexto, la ropa se
+              convierte en una extensión de la identidad de los personajes.
+              Vampiros, brujas y criaturas fantásticas expresan su poder y
+              personalidad a través de la elegancia y la extravagancia de sus
+              atuendos, mientras que protagonistas adolescentes o urbanos
+              reinterpretan la estética gótica con elementos modernos, dando
+              lugar a un estilo reconocible y accesible para nuevas generaciones
+            </p>
+          </div>
+        </div>
+
+        <!-- Fila 4 -->
+        <div class="row g-4 mt-5 mb-5">
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/contempo5_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/contempo5_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/contempo5_pc.jpg"
+              />
+              <img
+                src="multimedia/contempo5_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+          <div class="col-md-6">
+            <picture>
+              <source
+                media="(max-width: 576px)"
+                srcset="multimedia/contempo6_cel.jpg"
+              />
+              <source
+                media="(max-width: 992px)"
+                srcset="multimedia/contempo6_pc.jpg"
+              />
+              <source
+                media="(min-width: 993px)"
+                srcset="multimedia/contempo6_pc.jpg"
+              />
+              <img
+                src="multimedia/contempo6_pc.jpg"
+                class="img-fluid rounded img-small"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRUSEL -->
+    <section class="py-5 carrusel-autores">
+      <div class="container d-flex flex-column align-items-center">
+        <div
+          id="carruselAutores"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="d-flex justify-content-center align-items-center gap-4 slide-contenido"
+              >
+                <picture>
+                  <source
+                    media="(max-width: 576px)"
+                    srcset="multimedia/nota_autor1_cel.jpg"
+                  />
+                  <source
+                    media="(max-width: 992px)"
+                    srcset="multimedia/nota_autor1.jpg"
+                  />
+                  <source
+                    media="(min-width: 993px)"
+                    srcset="multimedia/nota_autor1.jpg"
+                  />
+                  <img
+                    src="multimedia/nota_autor1.jpg"
+                    class="foto-autor"
+                    alt="Autor 1"
+                  />
+                </picture>
+                <div class="texto-autor">
+                  <p class="frase">“Me gusta la hermosa oscuridad.”</p>
+                  <p class="autor">Tim Burton</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div
+                class="d-flex justify-content-center align-items-center gap-4 slide-contenido"
+              >
+                <picture>
+                  <source
+                    media="(max-width: 576px)"
+                    srcset="multimedia/nota_autor2_cel.jpg"
+                  />
+                  <source
+                    media="(max-width: 992px)"
+                    srcset="multimedia/nota_autor2.jpg"
+                  />
+                  <source
+                    media="(min-width: 993px)"
+                    srcset="multimedia/nota_autor2.jpg"
+                  />
+                  <img
+                    src="multimedia/nota_autor2.jpg"
+                    class="foto-autor"
+                    alt="Autor 2"
+                  />
+                </picture>
+                <div class="texto-autor">
+                  <p class="frase">
+                    “Los cuentos de hadas son más que verdad: no porque nos
+                    digan que los dragones existen, sino porque nos enseñan que
+                    pueden ser vencidos.”
+                  </p>
+                  <p class="autor">Guillermo del Toro</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <button
+              class="btn flecha me-3"
+              type="button"
+              data-bs-target="#carruselAutores"
+              data-bs-slide="prev"
+            >
+              ❮
+            </button>
+            <button
+              class="btn flecha"
+              type="button"
+              data-bs-target="#carruselAutores"
+              data-bs-slide="next"
+            >
+              ❯
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 text-center fondo-newsletter">
+      <div class="container">
+        <h3 class="titulo mb-3">Suscribite a nuestro newsletter</h3>
+        <form class="d-inline-block" style="max-width: 400px">
+          <input
+            type="email"
+            class="form-control mb-3"
+            placeholder="Tu correo"
+          />
+          <button type="submit" class="btn btn-dark">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-black text-center">
+      <p class="mb-0">
+        Juana Anastasio Melgar — Diseño Multimedial NOCHE Virtual — 2025
+      </p>
+      <div class="mt-2">
+        <a href="#" class="text-light mx-2"
+          ><i class="bi bi-instagram fs-4"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="bi bi-twitter fs-4"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="bi bi-facebook fs-4"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
